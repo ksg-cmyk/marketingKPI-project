@@ -1,0 +1,13 @@
+{
+  "name": "marketingkpi",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint"
+  },
+  "packageManager": "pnpm@8.10.0",
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}

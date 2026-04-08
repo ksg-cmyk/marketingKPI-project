@@ -1,0 +1,10 @@
+{
+  "name": "@marketingkpi/styles",
+  "private": true,
+  "version": "0.0.0",
+  "main": "global.css",
+  "devDependencies": {
+    "tailwindcss": "^4"
+  },
+  "types": "./index.d.ts"
+}

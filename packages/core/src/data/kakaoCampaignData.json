@@ -1,0 +1,199 @@
+{
+  "months": [
+    {
+      "month": "2025-11",
+      "label": "11월",
+      "weeks": [
+        {
+          "week": "11월 1주",
+          "campaigns": [
+            { "name": "251101weekend", "purchases": 7, "revenue": 471368, "cartAdd": 137, "sessions": 908, "adSpend": 123260, "sendCount": 6163, "views": 4566, "clicks": 1114, "ctr": 24.40, "roas": 1085.60, "revenue7d": 1338115, "purchases7d": 7 },
+            { "name": "251106BFDAY", "purchases": 7, "revenue": 390928, "cartAdd": 140, "sessions": 914, "adSpend": 112320, "sendCount": 5616, "views": 3572, "clicks": 1063, "ctr": 29.76, "roas": 158.41, "revenue7d": 177921, "purchases7d": 5 },
+            { "name": "251107BFDAY", "purchases": 70, "revenue": 3277870, "cartAdd": 805, "sessions": 1889, "adSpend": 311120, "sendCount": 15556, "views": 9315, "clicks": 2753, "ctr": 29.55, "roas": 1053.57, "revenue7d": 1883454, "purchases7d": 46 },
+            { "name": "251107_8700", "purchases": 18, "revenue": 507130, "cartAdd": 231, "sessions": 725, "adSpend": 181160, "sendCount": 9058, "views": 5966, "clicks": 802, "ctr": 13.44, "roas": 269.50, "revenue7d": 488225, "purchases7d": 20 }
+          ],
+          "total": { "purchases": 102, "revenue": 4647296, "cartAdd": 1313, "sessions": 4436, "adSpend": 727860, "sendCount": 36393, "views": 23419, "clicks": 5732, "ctr": 24.29, "roas": 638.49, "revenue7d": 3887715, "purchases7d": 78 }
+        },
+        {
+          "week": "11월 2주",
+          "campaigns": [
+            { "name": "251110BFDAY", "purchases": 3, "revenue": 103459, "cartAdd": 14, "sessions": 169, "adSpend": 147340, "sendCount": 7367, "views": 3071, "clicks": 345, "ctr": 11.23, "roas": 39.53, "revenue7d": 58236, "purchases7d": 3 },
+            { "name": "251112_9900", "purchases": 18, "revenue": 275510, "cartAdd": 195, "sessions": 669, "adSpend": 37400, "sendCount": 1870, "views": 1450, "clicks": 840, "ctr": 57.93, "roas": 1120.52, "revenue7d": 419073, "purchases7d": 21 },
+            { "name": "251114_LAST", "purchases": 12, "revenue": 614172, "cartAdd": 244, "sessions": 930, "adSpend": 166480, "sendCount": 8324, "views": 6375, "clicks": 994, "ctr": 15.59, "roas": 403.79, "revenue7d": 672226, "purchases7d": 7 }
+          ],
+          "total": { "purchases": 33, "revenue": 993141, "cartAdd": 453, "sessions": 1768, "adSpend": 351220, "sendCount": 17561, "views": 10896, "clicks": 2179, "ctr": 28.25, "roas": 282.77, "revenue7d": 1149535, "purchases7d": 31 }
+        },
+        {
+          "week": "11월 3주",
+          "campaigns": [
+            { "name": "251121_weekend", "purchases": 19, "revenue": 889256, "cartAdd": 278, "sessions": 1256, "adSpend": 126880, "sendCount": 6344, "views": 4602, "clicks": 1450, "ctr": 31.51, "roas": 499.50, "revenue7d": 633765, "purchases7d": 11 },
+            { "name": "251125_winter", "purchases": 3, "revenue": 171050, "cartAdd": 56, "sessions": 1385, "adSpend": 168680, "sendCount": 8434, "views": 5612, "clicks": 1478, "ctr": 26.34, "roas": 119.22, "revenue7d": 201094, "purchases7d": 4 }
+          ],
+          "total": { "purchases": 22, "revenue": 1060306, "cartAdd": 334, "sessions": 2641, "adSpend": 295560, "sendCount": 14778, "views": 10214, "clicks": 2928, "ctr": 28.92, "roas": 358.74, "revenue7d": 834859, "purchases7d": 15 }
+        },
+        {
+          "week": "11월 4주",
+          "campaigns": [
+            { "name": "251128_weekend", "purchases": 8, "revenue": 674940, "cartAdd": 166, "sessions": 770, "adSpend": 134760, "sendCount": 6738, "views": 4641, "clicks": 1358, "ctr": 29.26, "roas": 161.78, "revenue7d": 218020, "purchases7d": 1 },
+            { "name": "251130_LAST", "purchases": 13, "revenue": 747966, "cartAdd": 160, "sessions": 820, "adSpend": 122520, "sendCount": 6126, "views": 3791, "clicks": 911, "ctr": 24.03, "roas": 367.41, "revenue7d": 450145, "purchases7d": 11 }
+          ],
+          "total": { "purchases": 21, "revenue": 1422906, "cartAdd": 326, "sessions": 1590, "adSpend": 257280, "sendCount": 12864, "views": 8432, "clicks": 2269, "ctr": 26.65, "roas": 553.06, "revenue7d": 668165, "purchases7d": 12 }
+        }
+      ]
+    },
+    {
+      "month": "2025-12",
+      "label": "12월",
+      "weeks": [
+        {
+          "week": "12월 1주",
+          "campaigns": [
+            { "name": "251205_final", "purchases": 31, "revenue": 2102289, "cartAdd": 338, "sessions": 1173, "adSpend": 149200, "sendCount": 7046, "views": 4486, "clicks": 1308, "ctr": 29.16, "roas": 1409.04, "revenue7d": 1079103, "purchases7d": 19 }
+          ],
+          "total": { "purchases": 31, "revenue": 2102289, "cartAdd": 338, "sessions": 1173, "adSpend": 149200, "sendCount": 7046, "views": 4486, "clicks": 1308, "ctr": 29.16, "roas": 1409.04, "revenue7d": 1079103, "purchases7d": 19 }
+        },
+        {
+          "week": "12월 2주",
+          "campaigns": [
+            { "name": "251207_week", "purchases": 13, "revenue": 841594, "cartAdd": 193, "sessions": 706, "adSpend": 122020, "sendCount": 6101, "views": 3796, "clicks": 801, "ctr": 21.10, "roas": 350.16, "revenue7d": 427265, "purchases7d": 6 },
+            { "name": "251212_38000", "purchases": 62, "revenue": 2274420, "cartAdd": 223, "sessions": 1604, "adSpend": 124660, "sendCount": 6233, "views": 4567, "clicks": 2084, "ctr": 45.63, "roas": 1824.50, "revenue7d": 1841806, "purchases7d": 51 }
+          ],
+          "total": { "purchases": 75, "revenue": 3116014, "cartAdd": 416, "sessions": 2310, "adSpend": 246680, "sendCount": 12334, "views": 8363, "clicks": 2885, "ctr": 31.96, "roas": 1263.18, "revenue7d": 3348174, "purchases7d": 57 }
+        },
+        {
+          "week": "12월 3주",
+          "campaigns": [
+            { "name": "251215_xmas", "purchases": 17, "revenue": 829208, "cartAdd": 222, "sessions": 795, "adSpend": 145380, "sendCount": 7269, "views": 4277, "clicks": 952, "ctr": 22.26, "roas": 515.67, "revenue7d": 749687, "purchases7d": 16 },
+            { "name": "251219_weekend", "purchases": 18, "revenue": 986298, "cartAdd": 226, "sessions": 759, "adSpend": 128900, "sendCount": 6445, "views": 4248, "clicks": 994, "ctr": 23.40, "roas": 765.17, "revenue7d": 1217436, "purchases7d": 24 }
+          ],
+          "total": { "purchases": 35, "revenue": 1815506, "cartAdd": 448, "sessions": 1554, "adSpend": 274280, "sendCount": 13714, "views": 8525, "clicks": 1946, "ctr": 25.87, "roas": 661.92, "revenue7d": 1967123, "purchases7d": 40 }
+        },
+        {
+          "week": "12월 4주",
+          "campaigns": [
+            { "name": "251222_xmas", "purchases": 11, "revenue": 466190, "cartAdd": 89, "sessions": 451, "adSpend": 128920, "sendCount": 5860, "views": 3505, "clicks": 816, "ctr": 23.28, "roas": 386.10, "revenue7d": 452510, "purchases7d": 14 },
+            { "name": "251227_22000", "purchases": 50, "revenue": 1494484, "cartAdd": 398, "sessions": 1034, "adSpend": 105240, "sendCount": 5262, "views": 3511, "clicks": 1331, "ctr": 37.91, "roas": 1420.07, "revenue7d": 1055445, "purchases7d": 36 }
+          ],
+          "total": { "purchases": 61, "revenue": 1960674, "cartAdd": 487, "sessions": 1485, "adSpend": 234160, "sendCount": 11122, "views": 7016, "clicks": 2147, "ctr": 29.02, "roas": 837.32, "revenue7d": 1507955, "purchases7d": 50 }
+        }
+      ]
+    },
+    {
+      "month": "2026-01",
+      "label": "1월",
+      "weeks": [
+        {
+          "week": "1월 1주",
+          "campaigns": [
+            { "name": "260102_weekendsale", "purchases": 17, "revenue": 953487, "cartAdd": 185, "sessions": 758, "adSpend": 102060, "sendCount": 5103, "views": 3388, "clicks": 844, "ctr": 24.91, "roas": 621.09, "revenue7d": 633879, "purchases7d": 13 }
+          ],
+          "total": { "purchases": 17, "revenue": 953487, "cartAdd": 185, "sessions": 758, "adSpend": 102060, "sendCount": 5103, "views": 3388, "clicks": 844, "ctr": 24.91, "roas": 621.09, "revenue7d": 633879, "purchases7d": 13 }
+        },
+        {
+          "week": "1월 2주",
+          "campaigns": [
+            { "name": "260106_wintersale", "purchases": 3, "revenue": 89349, "cartAdd": 38, "sessions": 916, "adSpend": 148700, "sendCount": 7435, "views": 4837, "clicks": 987, "ctr": 20.41, "roas": 160.99, "revenue7d": 239395, "purchases7d": 5 },
+            { "name": "260110_weekendsale", "purchases": 20, "revenue": 933315, "cartAdd": 177, "sessions": 948, "adSpend": 117480, "sendCount": 5874, "views": 3852, "clicks": 1088, "ctr": 28.25, "roas": 505.63, "revenue7d": 594019, "purchases7d": 14 }
+          ],
+          "total": { "purchases": 23, "revenue": 1022664, "cartAdd": 215, "sessions": 1864, "adSpend": 266180, "sendCount": 13309, "views": 8689, "clicks": 2075, "ctr": 24.33, "roas": 333.31, "revenue7d": 833414, "purchases7d": 19 }
+        },
+        {
+          "week": "1월 3주",
+          "campaigns": [
+            { "name": "260114_odpspring", "purchases": 1, "revenue": 108540, "cartAdd": 19, "sessions": 381, "adSpend": 187160, "sendCount": 9358, "views": 5478, "clicks": 619, "ctr": 11.30, "roas": 0, "revenue7d": 0, "purchases7d": 0 },
+            { "name": "260117_weekend", "purchases": 12, "revenue": 663976, "cartAdd": 80, "sessions": 855, "adSpend": 127940, "sendCount": 6397, "views": 4937, "clicks": 1142, "ctr": 23.13, "roas": 482.99, "revenue7d": 617940, "purchases7d": 13 }
+          ],
+          "total": { "purchases": 13, "revenue": 772516, "cartAdd": 99, "sessions": 1236, "adSpend": 315100, "sendCount": 15755, "views": 10415, "clicks": 1761, "ctr": 17.22, "roas": 241.50, "revenue7d": 617940, "purchases7d": 13 }
+        },
+        {
+          "week": "1월 4주",
+          "campaigns": [
+            { "name": "260119_sp", "purchases": 0, "revenue": 0, "cartAdd": 0, "sessions": 98, "adSpend": 151340, "sendCount": 7567, "views": 5463, "clicks": 92, "ctr": 1.68, "roas": 0, "revenue7d": 0, "purchases7d": 0 },
+            { "name": "260123_weekend", "purchases": 26, "revenue": 1119322, "cartAdd": 284, "sessions": 1105, "adSpend": 117660, "sendCount": 5883, "views": 4060, "clicks": 1267, "ctr": 31.21, "roas": 951.32, "revenue7d": 1009587, "purchases7d": 24 }
+          ],
+          "total": { "purchases": 26, "revenue": 1119322, "cartAdd": 284, "sessions": 1203, "adSpend": 269000, "sendCount": 13450, "views": 9523, "clicks": 1359, "ctr": 16.45, "roas": 416.10, "revenue7d": 1009587, "purchases7d": 24 }
+        },
+        {
+          "week": "1월 5주",
+          "campaigns": [
+            { "name": "260126_sullprise", "purchases": 5, "revenue": 367080, "cartAdd": 135, "sessions": 623, "adSpend": 181900, "sendCount": 9095, "views": 5771, "clicks": 771, "ctr": 13.36, "roas": 126.60, "revenue7d": 230285, "purchases7d": 3 },
+            { "name": "260130_sullprise", "purchases": 17, "revenue": 1159192, "cartAdd": 281, "sessions": 996, "adSpend": 158500, "sendCount": 7925, "views": 5096, "clicks": 1263, "ctr": 24.78, "roas": 731.35, "revenue7d": 816628, "purchases7d": 14 }
+          ],
+          "total": { "purchases": 22, "revenue": 1526272, "cartAdd": 416, "sessions": 1619, "adSpend": 340400, "sendCount": 17020, "views": 10867, "clicks": 2034, "ctr": 19.07, "roas": 448.38, "revenue7d": 1046913, "purchases7d": 17 }
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "label": "2월",
+      "weeks": [
+        {
+          "week": "2월 1주",
+          "campaigns": [
+            { "name": "260202_goodbyestarter", "purchases": 26, "revenue": 1824314, "cartAdd": 336, "sessions": 636, "adSpend": 158100, "sendCount": 7905, "views": 4974, "clicks": 742, "ctr": 14.92, "roas": 1153.90, "revenue7d": 1811848, "purchases7d": 27 }
+          ],
+          "total": { "purchases": 26, "revenue": 1824314, "cartAdd": 336, "sessions": 636, "adSpend": 158100, "sendCount": 7905, "views": 4974, "clicks": 742, "ctr": 14.92, "roas": 1153.90, "revenue7d": 1811848, "purchases7d": 27 }
+        },
+        {
+          "week": "2월 2주",
+          "campaigns": [
+            { "name": "260209_school", "purchases": 8, "revenue": 421437, "cartAdd": 100, "sessions": 746, "adSpend": 151220, "sendCount": 7561, "views": 4562, "clicks": 1041, "ctr": 22.82, "roas": 278.69, "revenue7d": 172285, "purchases7d": 3 },
+            { "name": "260213_weekendsale", "purchases": 109, "revenue": 3579270, "cartAdd": 2013, "sessions": 1272, "adSpend": 144520, "sendCount": 7226, "views": 4475, "clicks": 1554, "ctr": 34.73, "roas": 2476.66, "revenue7d": 1872564, "purchases7d": 57 }
+          ],
+          "total": { "purchases": 117, "revenue": 4000707, "cartAdd": 2113, "sessions": 2018, "adSpend": 295740, "sendCount": 14787, "views": 9037, "clicks": 2595, "ctr": 24.15, "roas": 1352.78, "revenue7d": 2044849, "purchases7d": 60 }
+        },
+        {
+          "week": "2월 3주",
+          "campaigns": [
+            { "name": "260220_weekend", "purchases": 117, "revenue": 1620631, "cartAdd": 1323, "sessions": 1143, "adSpend": 88580, "sendCount": 4429, "views": 3258, "clicks": 1372, "ctr": 42.11, "roas": 1829.57, "revenue7d": 721608, "purchases7d": 18 }
+          ],
+          "total": { "purchases": 117, "revenue": 1620631, "cartAdd": 1323, "sessions": 1143, "adSpend": 88580, "sendCount": 4429, "views": 3258, "clicks": 1372, "ctr": 42.11, "roas": 1829.57, "revenue7d": 721608, "purchases7d": 18 }
+        },
+        {
+          "week": "2월 4주",
+          "campaigns": [
+            { "name": "260223_sweatsetup", "purchases": 33, "revenue": 1684723, "cartAdd": 1133, "sessions": 1507, "adSpend": 159620, "sendCount": 7981, "views": 5837, "clicks": 1623, "ctr": 27.81, "roas": 1055.46, "revenue7d": 975646, "purchases7d": 18 },
+            { "name": "260226_ranking", "purchases": 28, "revenue": 1059655, "cartAdd": 677, "sessions": 633, "adSpend": 124960, "sendCount": 6248, "views": 4000, "clicks": 1089, "ctr": 27.23, "roas": 848.00, "revenue7d": 916536, "purchases7d": 21 }
+          ],
+          "total": { "purchases": 61, "revenue": 2744378, "cartAdd": 1810, "sessions": 2140, "adSpend": 284580, "sendCount": 14229, "views": 9837, "clicks": 2712, "ctr": 27.52, "roas": 964.36, "revenue7d": 1892182, "purchases7d": 39 }
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "label": "3월",
+      "weeks": [
+        {
+          "week": "3월 1주",
+          "campaigns": [
+            { "name": "260303_starterkidslast", "purchases": 141, "revenue": 8083458, "cartAdd": 4847, "sessions": 1702, "adSpend": 167780, "sendCount": 8389, "views": 5931, "clicks": 2230, "ctr": 37.60, "roas": 4817.89, "revenue7d": 4874766, "purchases7d": 90 },
+            { "name": "260307_weekendsale", "purchases": 33, "revenue": 1170149, "cartAdd": 832, "sessions": 1002, "adSpend": 67040, "sendCount": 3352, "views": 2564, "clicks": 1111, "ctr": 43.33, "roas": 1745.45, "revenue7d": 485511, "purchases7d": 14 }
+          ],
+          "total": { "purchases": 174, "revenue": 9253607, "cartAdd": 5679, "sessions": 2704, "adSpend": 234820, "sendCount": 11741, "views": 8495, "clicks": 3341, "ctr": 40.47, "roas": 3281.67, "revenue7d": 5360277, "purchases7d": 104 }
+        },
+        {
+          "week": "3월 2주",
+          "campaigns": [
+            { "name": "260313_weekendsale", "purchases": 8, "revenue": 375674, "cartAdd": 287, "sessions": 868, "adSpend": 79440, "sendCount": 3972, "views": 2785, "clicks": 1262, "ctr": 45.31, "roas": 472.90, "revenue7d": 402146, "purchases7d": 8 }
+          ],
+          "total": { "purchases": 8, "revenue": 375674, "cartAdd": 287, "sessions": 868, "adSpend": 79440, "sendCount": 3972, "views": 2785, "clicks": 1262, "ctr": 45.31, "roas": 472.90, "revenue7d": 402146, "purchases7d": 8 }
+        },
+        {
+          "week": "3월 3주",
+          "campaigns": [
+            { "name": "260316_coldspring", "purchases": 5, "revenue": 93293, "cartAdd": 524, "sessions": 869, "adSpend": 146580, "sendCount": 7329, "views": 4374, "clicks": 1018, "ctr": 23.27, "roas": 134.11, "revenue7d": 196576, "purchases7d": 6 },
+            { "name": "260318_univ", "purchases": 4, "revenue": 1269118, "cartAdd": 82, "sessions": 79, "adSpend": 184020, "sendCount": 9201, "views": 5034, "clicks": 581, "ctr": 11.54, "roas": 689.66, "revenue7d": 440327, "purchases7d": 4 }
+          ],
+          "total": { "purchases": 9, "revenue": 1362411, "cartAdd": 606, "sessions": 948, "adSpend": 330600, "sendCount": 16530, "views": 9408, "clicks": 1599, "ctr": 17.41, "roas": 412.10, "revenue7d": 636903, "purchases7d": 10 }
+        },
+        {
+          "week": "3월 4주",
+          "campaigns": [
+            { "name": "0327_sttweekend", "purchases": 179, "revenue": 4184751, "cartAdd": 3213, "sessions": 1580, "adSpend": 101000, "sendCount": 5050, "views": 3428, "clicks": 3022, "ctr": 88.16, "roas": 4143.32, "revenue7d": 2465642, "purchases7d": 104 }
+          ],
+          "total": { "purchases": 179, "revenue": 4184751, "cartAdd": 3213, "sessions": 1580, "adSpend": 101000, "sendCount": 5050, "views": 3428, "clicks": 3022, "ctr": 88.16, "roas": 4143.32, "revenue7d": 2465642, "purchases7d": 104 }
+        }
+      ]
+    }
+  ]
+}

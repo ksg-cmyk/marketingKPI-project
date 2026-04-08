@@ -1,0 +1,65 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production
+dist
+build
+.next
+out
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+*.pem
+
+# Optional eslint cache
+.eslintcache
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Deployment config (contains sensitive info)
+deploy-config.sh
+deploy-config.*.sh
+!deploy-config.*.example.sh
+
+# Turbo
+.turbo
+
+#History
+.history
+
+# Vite
+.vite
+
+# Test coverage
+coverage
+*.lcov
+
+# Cache
+.cache
+
+# Temp files
+*.tmp
+*.temp
+logs
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# TypeScript build output in src
+packages/*/src/**/*.js
+packages/*/src/**/*.d.ts
+!packages/*/src/**/*.d.ts.template
+
+/temp
