@@ -20,7 +20,7 @@ export default function App() {
       setAvailableBrands(brands);
       
       // 만약 데이터에 차일디가 없고 다른 것만 있다면 첫 번째 것으로 변경
-      if (brands.length > 0 && !brands.find(b => b.code === "childy")) {
+      if (brands.length > 0 && !brands.find(b => b.code === '차일디')) {
         setCurrentBrand(brands[0].code as BrandCode);
       }
     };

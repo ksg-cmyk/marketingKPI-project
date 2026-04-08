@@ -1,4 +1,4 @@
-import type { RoiDetailRow } from "@marketingkpi/types";
+import type { RoiDetailRow } from '@marketingkpi/core'
 
 interface RoiProfitTableProps {
   rows: RoiDetailRow[];

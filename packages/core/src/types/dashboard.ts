@@ -30,6 +30,33 @@ export interface PerformanceRow {
   isSummary?: boolean
 }
 
+export interface MediaSummaryRow {
+  brand: string
+  media: string
+  product: string
+  spend: string
+  impressions: string
+  clicks: string
+  ctr: string
+  cpm: string
+  cpc: string
+  purchases: string
+  cvr: string
+}
+
+export interface RoiDetailRow {
+  month: string
+  revenue: string
+  cogs: string
+  cogsRate: string
+  logistics: string
+  pgFee: string
+  spend: string
+  erpRoas: string
+  profit: string
+  roi: string
+}
+
 export interface KpiCardItem {
   value: string
   trend: string

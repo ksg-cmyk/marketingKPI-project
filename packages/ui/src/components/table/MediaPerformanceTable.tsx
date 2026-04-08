@@ -1,4 +1,4 @@
-import type { MediaSummaryRow } from "@marketingkpi/types";
+import type { MediaSummaryRow } from '@marketingkpi/core'
 
 interface MediaPerformanceTableProps {
   rows: MediaSummaryRow[];
