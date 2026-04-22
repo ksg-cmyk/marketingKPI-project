@@ -1,8 +1,7 @@
 import type { KpiMetric } from './kpi'
-import type { BrandCode } from './brand'
 
 export interface DashboardSummary {
-  brand: BrandCode
+  brand: string
   year: number
   metrics: KpiMetric
 }

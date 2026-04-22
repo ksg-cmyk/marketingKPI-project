@@ -1,0 +1,41 @@
+import type { PerformanceRow, ChannelEfficiencyRow } from '../../types'
+
+export const toPerformanceRow = (r: Record<string, unknown>): PerformanceRow => ({
+  month: r['월'] as string,
+  spend: r['광고비(VAT포함)'] as string,
+  impressions: r['노출수'] as string,
+  clicks: r['클릭 수'] as string,
+  ctr: r['CTR'] as string,
+  cpc: r['CPC'] as string,
+  cpm: r['CPM'] as string,
+  purchases: r['매체 구매'] as string,
+  cvr: r['구매 CVR'] as string,
+  cpa: r['구매 CPA'] as string,
+  revenue: r['매체매출'] as string,
+  roas: r['ROAS'] as string,
+})
+
+export const toChannelEfficiencyRow = (r: Record<string, unknown>): ChannelEfficiencyRow => ({
+  id: r.id as number,
+  channel: r['업로드 채널'] as string,
+  date: r['업로드 날짜'] as string,
+  contentType: r['컨텐츠 유형'] as string,
+  contentTitle: r['컨텐츠 내용'] as string,
+  views: r['조회수'] as string,
+  reach: r['도달/노출'] as string,
+  likes: r['반응수(좋아요)'] as string,
+  saves: r['반응수(저장)'] as string,
+  shares: r['반응수(공유)'] as string,
+  comments: r['반응수(댓글)'] as string,
+  profileVisits: r['프로필 방문'] as string,
+  followerGain: r['팔로워 유입(총)'] as string,
+  metaAdSpend: r['메타광고(금액)'] as string,
+  metaAdPeriod: r['메타광고(기간)'] as string,
+  metaVisits: r['메타(방문유입)'] as string,
+  metaFollowers: r['메타(팔로워유입)'] as string,
+  metaLinks: r['메타(링크유입)'] as string,
+  metaInterest: r['메타(관심사타겟)'] as string,
+  purchases: r['구매 건수'] as string,
+  purchaseAmount: r['구매 금액'] as string,
+  roas: r['ROAS'] as string,
+})

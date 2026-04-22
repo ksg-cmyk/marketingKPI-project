@@ -7,3 +7,8 @@ export interface ApiError {
   code?: string
   status?: number
 }
+
+export interface Brand {
+  code: string
+  name: string
+}

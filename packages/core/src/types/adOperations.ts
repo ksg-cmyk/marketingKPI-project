@@ -1,12 +1,11 @@
 import type { KpiMetric } from './kpi'
-import type { BrandCode } from './brand'
 
 export type CampaignStatus = 'active' | 'paused' | 'ended'
 
 export interface Campaign {
   id: string
   name: string
-  brand: BrandCode
+  brand: string
   status: CampaignStatus
   budget: number
   metrics: KpiMetric
@@ -16,6 +15,6 @@ export interface Campaign {
 
 export interface AdOperationsReport {
   year: number
-  brand: BrandCode
+  brand: string
   campaigns: Campaign[]
 }

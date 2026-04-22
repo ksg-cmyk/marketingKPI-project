@@ -1,68 +1,24 @@
-export interface KakaoWeekly {
-  executeCount: number
-  sendCount: number
-  adSpend: number
-  purchases: number
-  revenue: number
-  roas: number
-}
-
-export interface AppPushWeekly {
-  executeCount: number
-  clicks: number
-  purchases: number
-  revenue: number
-}
-
-export interface WeeklyData {
-  week: string
-  period: string
-  kakao: KakaoWeekly
-  appPush: AppPushWeekly
-}
-
-export interface MonthlyChannelData {
-  month: string
-  label: string
-  totalRevenue: number
-  totalAdSpend: number
-  totalRoas: number
-  weeks: WeeklyData[]
-}
-
-export interface ChannelEfficiencyData {
-  months: MonthlyChannelData[]
-}
-
-// 카카오 건별
-export interface KakaoCampaign {
-  name: string
-  purchases: number
-  revenue: number
-  cartAdd: number
-  sessions: number
-  adSpend: number
-  sendCount: number
-  views: number
-  clicks: number
-  ctr: number
-  roas: number
-  revenue7d: number
-  purchases7d: number
-}
-
-export interface KakaoWeeklyDetail {
-  week: string
-  campaigns: KakaoCampaign[]
-  total: KakaoCampaign
-}
-
-export interface KakaoMonthlyData {
-  month: string
-  label: string
-  weeks: KakaoWeeklyDetail[]
-}
-
-export interface KakaoCampaignData {
-  months: KakaoMonthlyData[]
+export interface ChannelEfficiencyRow {
+  id: number
+  channel: string
+  date: string
+  contentType: string
+  contentTitle: string
+  views: string
+  reach: string
+  likes: string
+  saves: string
+  shares: string
+  comments: string
+  profileVisits: string
+  followerGain: string
+  metaAdSpend: string
+  metaAdPeriod: string
+  metaVisits: string
+  metaFollowers: string
+  metaLinks: string
+  metaInterest: string
+  purchases: string
+  purchaseAmount: string
+  roas: string
 }

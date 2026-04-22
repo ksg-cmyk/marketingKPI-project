@@ -1,48 +1,16 @@
-import { useState, useEffect } from "react"
 import { KpiCards, SectionHeader, RoasTrendChart } from "@marketingkpi/ui"
-import { fetchKpiSummary, fetchPerformanceRows } from "@marketingkpi/core"
-import type { BrandCode, KpiSummary } from "@marketingkpi/core"
+import { computeKpiSummary, fetchRoasTrend } from "@marketingkpi/core"
+import type { PerformanceRow } from "@marketingkpi/core"
 import PerformanceAnalysisPage from "../performance-analysis"
 
 interface DashboardPageProps {
-  currentBrand: BrandCode
+  currentBrand: string
+  rows: PerformanceRow[]
 }
 
-export default function DashboardPage({ currentBrand }: DashboardPageProps) {
-  const [kpiData, setKpiData] = useState<KpiSummary | null>(null)
-  const [roasTrend, setRoasTrend] = useState<number[]>([])
-
-  useEffect(() => {
-    if (!currentBrand) return;
-
-    const loadData = async () => {
-      const summary = await fetchKpiSummary(currentBrand)
-      setKpiData(summary)
-
-      const rows = await fetchPerformanceRows(currentBrand)
-      
-      // 12개월 0으로 초기화된 배열 생성
-      const monthlyRoas = Array(12).fill(0);
-      
-      rows.forEach(r => {
-        const monthStr = String(r.month || '');
-        if (monthStr.includes('총')) return; // 총계 무시
-
-        // "11월" 또는 "field_12817" 등의 데이터에서 월 숫자(1~12) 추출
-        const monthMatch = monthStr.match(/(\d+)/);
-        if (monthMatch) {
-          const monthIdx = parseInt(monthMatch[1]) - 1; // 0 ~ 11 인덱스
-          if (monthIdx >= 0 && monthIdx < 12) {
-            const val = String(r.roas || '0').replace(/[^0-9.]/g, '');
-            monthlyRoas[monthIdx] = parseFloat(val) || 0;
-          }
-        }
-      });
-      
-      setRoasTrend(monthlyRoas)
-    }
-    loadData()
-  }, [currentBrand])
+export default function DashboardPage({ currentBrand, rows }: DashboardPageProps) {
+  const kpiData = computeKpiSummary(rows)
+  const roasTrend = fetchRoasTrend(rows)
 
   // 로딩 상태 상세화
   if (!kpiData) return (
@@ -71,7 +39,7 @@ export default function DashboardPage({ currentBrand }: DashboardPageProps) {
       <div className="w-full h-px bg-slate-200 my-10" />
 
       {/* 월별 성과 상세 테이블 (리졸브된 중첩 여백 없이 깨끗하게 출력됩니다) */}
-      <PerformanceAnalysisPage brand={currentBrand || "childi"} />
+      <PerformanceAnalysisPage brand={currentBrand || "childi"} rows={rows} />
       
       <div className="h-10" />
     </div>
